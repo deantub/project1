@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сторінка конструктора сумочки</title>
+    <link rel="stylesheet" type="text/css" href="styles_doingbags.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!--форма сумочки - додаткові прикраси-->
+
+    <h1 class="animated fadeInDown"><i class="icon icon-arrow-down"></i></h1>
+    <h1 class="animated rotateIn">ОБЕРІТЬ ДИЗАЙН</h1>
+    <FORM NAME="theForm" METHOD="POST">
+        <TABLE><TR><TD><p>ОБЕРІТЬ ФОРМУ БУСИН:</p><TD>
+            <SELECT NAME="items" onChange="setImage(this)">
+                <OPTION VALUE="1">Куб</option>
+                <OPTION VALUE="2">Пухирці</option>
+                <OPTION VALUE="3">Біконус</option>
+                <OPTION VALUE="4">Перлини</option>
+            </SELECT>
+            <TD><img src="image/kub1.jpg" height=100 width=100 alt="Кубічні бусини">
+        </TABLE>
+    </FORM>
+    <br>
+    <br>
+    <form name="theForm" method="post">
+         <table><tr><td><p>ОБЕРІТЬ РОЗМІР БУСИН:</p><td>
+            <select name="items">
+                <option value="5">6 мм</option>
+                <option value="6">8 мм</option>
+                <option value="7">10 мм</option>
+                <option value="8">12 мм</option>
+            </select>
+            <td>
+        </table>
+    </form>
+    <br>
+    <br>
+    <form name="theForm" method="post">
+         <table><tr><td><p>СТИЛІЗАЦІЯ СУМОЧКИ:</p><td>
+            <select name="items" onChange="setImage(this)">
+                <option value="9">Одна ручка, клапан</option>
+                <option value="10">Дві ручки, відкрита</option>
+                <option value="11">Дві вшиті ручки</option>
+                <option value="12">Без ручки, клапан</option>
+            </select>
+            <td><img src="image/ruchka-klapan.jpg" height="100" width="100" alt="Одна ручка, клапан">
+        </table>
+    </form>
+    <br>
+    <br>
+    <form name="theForm" method="post">
+         <table><tr><td><p>РЕМІНЕЦЬ:</p><td>
+            <select name="items" onChange="setImage(this)">
+                <option value="13">Ланцюг металевий</option>
+                <option value="14">Ремінець з бусин</option>
+                <option value="15">Шкіряний ремінець</option>
+            </select>
+            <td><img src="image/metal.jpg" height="100" width="100" alt="Ланцюг металевий">
+        </table>
+    </form>
+    <br>
+    <br>
+
+
+</body>
+</html>

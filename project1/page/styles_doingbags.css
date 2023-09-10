@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700';
+body {
+  width: 100%;
+  min-height: 900px;
+  margin: 3em auto;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7cac9+0,92a8d1+100 */
+  background: rgb(247, 202, 201);
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgb(247, 202, 201) 0%, rgb(146, 168, 209) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* IE6-9 fallback on horizontal gradient */
+  font-family: "Roboto Mono";
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 3em;
+  letter-spacing: 0px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.02), 2px 2px rgba(0, 0, 0, 0.02), 3px 3px rgba(0, 0, 0, 0.02), 4px 4px rgba(0, 0, 0, 0.02), 5px 5px rgba(0, 0, 0, 0.02), 6px 6px rgba(0, 0, 0, 0.02), 7px 7px rgba(0, 0, 0, 0.02);
+}
+h1 i {
+  position: relative;
+  font-size: 70px;
+}
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: 2em;
+  line-height: 30px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 50px;
+  position: relative;
+}
